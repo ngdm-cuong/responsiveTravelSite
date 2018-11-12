@@ -2,6 +2,7 @@
   float :left;
   background-color: green;
   height:500px;
+  width:auto;
 }
 
 .container{
