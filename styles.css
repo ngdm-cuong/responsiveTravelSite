@@ -1,0 +1,15 @@
+.sidebar {
+  float :left;
+  background-color: green;
+  height:500px;
+}
+
+.container{
+  width:auto;
+  background-color:pink;
+
+}
+.logo{
+align-items: center;
+}
+a{}
