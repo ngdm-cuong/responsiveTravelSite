@@ -1,13 +1,42 @@
 .sidebar {
   float :left;
-  background-color: green;
+  background-color: #7EBC89;
   height:500px;
   width:auto;
 }
 
 .container{
-  background-color:pink;!important;
+  background-color: #FE5D26;
+  width: 100%;
 }
 .logo{
 text-align: center;
+}
+.footer{
+  text-align: center;
+  background-color: #C1DBB3;
+}
+.d-flex, .justify-content-between{
+  text-align: center;
+}
+.row{
+  background-color: #7EBC89; /*background of drop down "about us" */
+  color: white;
+  box-shadow: -5px 7px 5px black;
+}
+.text-muted{
+  color: white !important;
+}
+body{
+  background-color: #FAEDCA;
+}
+.thankyou{
+  text-align: center;
+  background-color:  #7EBC89;
+}
+.jumbotron{
+  background-color: #7EBC89;
+}
+#body2{
+    background-color: #7EBC89;
 }
