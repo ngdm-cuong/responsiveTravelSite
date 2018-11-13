@@ -18,6 +18,7 @@ text-align: center;
   text-align: center;
   background-color: #C1DBB3;
   border: 2px black solid;
+  box-shadow: 2px 2px 5px black;
 }
 .d-flex, .justify-content-between{
   text-align: center;
