@@ -39,10 +39,11 @@ body{
   text-align: center;
   background-repeat: repeat;
   background-color:  #7EBC89;
-  font-family: arial;
+  font-family: arial, sans-serif;
   font-size: 50px;
   text-shadow: -2px 0px 2px black;
-  border: 2px solid black;1
+  border: 2px solid black;
+  line-height: 1.5;
 }
 #noshadow{
   text-shadow: 0px 0px 0px;
