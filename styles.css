@@ -1,13 +1,16 @@
 .sidebar {
   float :left;
-  background-color: #7EBC89;
+  /* background-color: #7EBC89; */
   height:500px;
   width:auto;
 }
 
 .container{
-  background-color: #FE5D26;
+  /* background-color: #FE5D26; */
+    background-image: linear-gradient(rgb(254, 93, 38), rgb(153, 61, 0));
   width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 .logo{
 text-align: center;
@@ -17,23 +20,26 @@ text-align: center;
   margin-bottom: 20px;
   text-align: center;
   background-color: #C1DBB3;
-  border: 2px black solid;
-  box-shadow: 2px 2px 5px black;
+  border: 1px gray solid;
+
 }
 .d-flex, .justify-content-between{
   text-align: center;
 }
 .row{
-  background-color: #7EBC89; /*background of drop down "about us" */
-  color: white;
-  box-shadow: -5px 7px 5px black;
-  text-shadow: 2px 2px 2px black;
+  /* background-color: #7EBC89; /*background of drop down "about us" */ */
+
+  background-color: #7EBC89;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #e3efdc 51%, #7EBC89 75%);
+  color: #34653d;
+  box-shadow: 5px 10px 8px rgb(51, 51, 51);
 }
 .text-muted{
   color: white !important;
 }
 body{
   background-color: #FAEDCA;
+  background-image: linear-gradient(141deg, #9fb8ad 10%,#FAEDCA   51%, #9fb8ad 75%);
 }
 .thankyou{
   text-align: center;
@@ -50,10 +56,11 @@ body{
 }
 .jumbotron{
   background-color: #7EBC89 !important;
+
 }
 #body2{
-    background-color: #FAEDCA;
-    border: 2px solid  #FE5D26;
+  background-image:url("formbg.jpg");
+  background-size:cover;
 }
 .container-flex{
   background-color: #FE5D26;
@@ -69,4 +76,8 @@ body{
   padding: 35px;
   border: 2px solid black;
   text-shadow: 2px 0px 2px black;
+}
+
+a:hover {
+    text-decoration: underline !important;
 }

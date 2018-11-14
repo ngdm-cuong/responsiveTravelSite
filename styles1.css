@@ -1,0 +1,36 @@
+body{
+   background-image:url("formbg.jpg");
+   /* background-size:cover; */
+
+}
+
+h1,h2{
+  color:white;
+  text-align: center;
+}
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  padding: 20px;
+  color:white;
+
+}
+
+a{
+  text-decoration:none;
+  color:rgba(255, 255,255, 0.6);
+}
+a:hover
+a:hover {
+    text-decoration: underline !important;
+}
+
+.footer{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 0.65em;
+
+}
